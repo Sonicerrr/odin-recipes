@@ -1,0 +1,20 @@
+* {
+    font-family: Verdana, Tahoma, Geneva, sans-serif;
+}
+
+body {
+    background-color: #fffcce;
+}
+
+ul li {
+    line-height: 30px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #ff7b00;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
