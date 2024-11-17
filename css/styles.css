@@ -1,20 +1,44 @@
 * {
     font-family: Verdana, Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #fffcce;
+    background-color: #ffffee;
+    margin-left: 30px;
+    width: 600px;
+}
+img {
+    width: 600px;
+    height: auto;
+}
+.header {
+    margin-left: 0px;
+    font-size: 35px;
+}
+.main {
+    margin-left: 30px;
+} 
+ul.main {
+    padding-left: 0px;
 }
 
-ul li {
+.main li {
     line-height: 30px;
+    border: 1px solid orange;
+    width: 240px;
+    padding: 0px;
+    margin-bottom: 2px;
 }
 
-ul a {
+.main a {
     text-decoration: none;
     color: #ff7b00;
+    display: block;
+    padding: 10px;
 }
 
-ul a:hover {
-    text-decoration: underline;
+.main a:hover {
+    background-color: #ffecb8;
 }
